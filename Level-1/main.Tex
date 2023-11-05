@@ -1,0 +1,36 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\geometry{left=0.8in,right=0.8in,top=0.5in,bottom=0.8in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\title{\textbf{FPGAspeaks}}
+\author{\textbf{Level-1} \\  Chittidi Dhanusha Lakshmi Durga }
+\date{October 2023}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+This level-1 of  FPGAspeaks describes about the fundamental logic gates\\ AND,OR,NAND,NOR,NOT,XOR,XNOR and their implementation in verilog.
+
+\section{Tools/Requirements}
+ Xilinx Vivado  2016
+ \section{Basic Logic gates}
+ \begin{enumerate}[label=\roman*.] % Use Roman numerals
+\item \textbf{AND Gate:} Output becomes high when both inputs are high.
+\item \textbf{OR Gate:} Output becomes low when both inputs are low.
+\item \textbf{NAND Gate:} Output becomes low when both inputs are high.It can  be designed by negation of AND gate 
+\item \textbf{NOR Gate:} Output becomes high when both inputs are low.It can  be designed by applying negation to OR gate 
+\item \textbf{NOT Gate:} Output becomes compliment of the input.
+\item \textbf{XOR Gate:} Output becomes high when odd number of inputs are high.
+\item \textbf{XNOR Gate:}Output becomes high when even number of inputs are high..It can  be designed by applying negation to XOR gate. 
+\end{enumerate}
+\section{What have I done in this level?}
+ Basic logic gates are implemented using Xilinx Vivado for digital circuit design. In Vivado, we can create designs that utilize these fundamental logic gates to perform various logical operations in digital systems.
+\section{Links}
+\href{https://github.com/Dhanusha-Chittidi/FPGAspeaks}{Link to my GitHub}
+\end{document}
